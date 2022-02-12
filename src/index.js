@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import greeting from "./greeting.js";
+import { subHeader, organize } from "./helpers.js";
 //import the default export from the greeting module
 //import the named exports from the helpers module
 
@@ -21,3 +23,4 @@ function App() {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+
